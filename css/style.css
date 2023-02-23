@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair-display-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/playfair-display-v30-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair-display-v30-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/playfair-display-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair-display-v30-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+htmk {
+    box-sizing: border-box;
+}
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+.box {
+    position: relative;
+    width: 1440px;
+    height: 1024;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.header {
+    height: 108px;
+    display: flex;
+    padding: 0;
+    
+}
+.header__logo {
+    margin-top: 51px;
+    margin-left: 149px;
+    margin-bottom: 934px;
+}
+.header__menu {
+    width: 529px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-top: 57px;
+    margin-right: 155px;
+    margin-left: 756px;
+}
+.menu1 {
+
+}
+.menu2 {
+  
+}
+.menu3 {
+   
+}
+.menu4 {
+
+}
+.slider {
+   padding-bottom: 0px;
+    
+}
+.fotofone {
+    margin-left: 153px;
+    margin-right: 153px;
+    
+}
+.strelki{
+
+}
+
+.strelka1 {
+    margin-top: 227px;
+margin-left: 149px;
+
+}
+.strelka2 {
+    margin-right: 153px;
+    
+}
+.krugi {
+
+}
+.krug1 {
+}
+.krug2 {
+}
+.krug3 {
+}
+.footer {
+    display: flex;
+}
+.text {
+    width: 667px;
+    margin-top: 42px;
+    margin-left: 156px;
+}
+h1 {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 43px;
+}
+p {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 35px;
+margin-top: 14px;
+}
+.buttons {
+    display: flex;
+    margin-top: 105px;
+    margin-bottom: 31px;
+    
+    
+    
+}
+.yelow1 {
+    width: 248px;
+    height: 72px;
+    background-color: #F58220;
+    color: #000000;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+border-radius: 15px;
+}
+.grey2 {
+    margin-left: 65px;
+    width: 297px;
+    height: 72px;
+    background-color: #9B9189;
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 40px;
+border-radius: 15px;
+}
+.photo {
+    margin-top: 42px;
+    margin-right: 153px;
+    margin-bottom: 31px;
+}
